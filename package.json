@@ -1,0 +1,40 @@
+{
+  "name": "gulp-dox",
+  "version": "0.0.1",
+  "description": "A plugin for Gulp",
+  "keywords": [
+    "gulpplugin",
+    "dox",
+    "api",
+    "documentation"
+  ],
+  "author": {
+    "name": "Ayhan Kuru",
+    "email": "ayhankuru@yandex.com.tr",
+    "url": "https://github.com/ayhankuru"
+  },
+  "repository": "ayhankuru/gulp-gulp-dox",
+  "scripts": {
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {
+    "dox": "^0.4.6",
+    "gulp": "^3.8.7",
+    "gulp-util": "~2.2.0",
+    "through2": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "istanbul": "*",
+    "event-stream": "*",
+    "should": "~2.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
