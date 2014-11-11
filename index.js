@@ -18,7 +18,7 @@ module.exports = function(opt){
 
 
 		 try {
-			var parsed = dox.parseComments(file.contents.toString());
+			var parsed = dox.parseComments(file.contents.toString(),opt);
 		            parsed =JSON.stringify(parsed, null, 2)
 
 		file.contents = new Buffer(parsed);
