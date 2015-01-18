@@ -1,5 +1,5 @@
 
-# gulp-dox
+# [gulp](https://github.com/gulpjs/gulp)-dox  [![Build Status](https://img.shields.io/david/ayhankuru/gulp-dox.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-dox)
 
 > gulp-dox plugin for [dox](https://github.com/visionmedia/dox)
 
