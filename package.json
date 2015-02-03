@@ -13,7 +13,7 @@
     "email": "ayhankuru@yandex.com.tr",
     "url": "https://github.com/ayhankuru"
   },
-  "repository": "ayhankuru/gulp-gulp-dox",
+  "repository": "ayhankuru/gulp-dox",
   "scripts": {
     "test": "mocha test/main.js --reporter spec --timeout 15000"
   },
