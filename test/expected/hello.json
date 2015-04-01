@@ -3,10 +3,12 @@
     "tags": [
       {
         "type": "example",
-        "string": "    utils.escape('<script></script>')\n    // => '&lt;script&gt;&lt;/script&gt;'\n"
+        "string": "    utils.escape('<script></script>')\n    // => '&lt;script&gt;&lt;/script&gt;'\n",
+        "html": "<pre><code>utils.escape(&#39;&lt;script&gt;&lt;/script&gt;&#39;)\n// =&gt; &#39;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&#39;\n</code></pre>"
       },
       {
         "type": "param",
+        "string": "{String} html string to be escaped",
         "name": "html",
         "description": "<p>string to be escaped</p>",
         "types": [
@@ -20,6 +22,7 @@
       },
       {
         "type": "return",
+        "string": "{String} escaped html",
         "types": [
           "String"
         ],
@@ -32,7 +35,9 @@
       },
       {
         "type": "api",
-        "visibility": "public"
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
       }
     ],
     "description": {
@@ -42,6 +47,7 @@
     },
     "isPrivate": false,
     "isConstructor": false,
+    "isClass": false,
     "isEvent": false,
     "ignore": false,
     "line": 1,
