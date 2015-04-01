@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     	dox = require('./index.js');
 
 gulp.task('default', function() {
-  return gulp.src('./a.js')
+  return gulp.src('./test/fixtures/hello.js')
         .pipe(dox())
-        .pipe(gulp.dest('build/'));;
+        .pipe(gulp.dest('./test/expected/'));;
 });
