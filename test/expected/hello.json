@@ -3,7 +3,7 @@
     "tags": [
       {
         "type": "example",
-        "string": "    utils.escape('<script></script>')\n    // => '&lt;script&gt;&lt;/script&gt;'\n",
+        "string": "    utils.escape('<script></script>')\n    // => '&lt;script&gt;&lt;/script&gt;'",
         "html": "<pre><code>utils.escape(&#39;&lt;script&gt;&lt;/script&gt;&#39;)\n// =&gt; &#39;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&#39;\n</code></pre>"
       },
       {
