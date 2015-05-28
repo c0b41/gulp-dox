@@ -18,7 +18,7 @@
     "test": "iojs node_modules/mocha/bin/mocha ./test/main.js --reporter spec --timeout 15000"
   },
   "dependencies": {
-    "dox": "^0.7.0",
+    "dox": "^0.8.0",
     "gulp-util": "^3.0.4",
     "through2": "^0.6.3"
   },
