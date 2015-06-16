@@ -1,6 +1,6 @@
 {
   "name": "gulp-dox",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A plugin for Gulp",
   "keywords": [
     "gulpplugin",
@@ -20,7 +20,7 @@
   "dependencies": {
     "dox": "^0.8.0",
     "gulp-util": "^3.0.4",
-    "through2": "^0.6.3"
+    "through2": "^2.0.0"
   },
   "license": "MIT",
   "devDependencies": {
