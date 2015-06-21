@@ -15,7 +15,7 @@
   },
   "repository": "ayhankuru/gulp-dox",
   "scripts": {
-    "test": "iojs node_modules/mocha/bin/mocha ./test/main.js --reporter spec --timeout 15000"
+    "test": "mocha --harmony ./test/main.js --reporter spec --timeout 15000"
   },
   "dependencies": {
     "dox": "^0.8.0",
