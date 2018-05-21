@@ -29,7 +29,7 @@ jobs:
           at: .
       - run:
           name: Testing
-          command: yarn test
+          command: yarn run test
 workflows:
   version: 2
   pipeline:
