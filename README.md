@@ -3,7 +3,7 @@
 
 
 
-[![Travis Build Status](http://img.shields.io/travis/ayhankuru/gulp-dox.svg?style=flat-square)](https://travis-ci.org/ayhankuru/gulp-dox) [![Circle Build Status](https://img.shields.io/circleci/project/ayhankuru/gulp-dox.svg?style=flat-square)](https://circleci.com/gh/ayhankuru/gulp-dox) [![Appveyor Build Status](https://img.shields.io/appveyor/ci/ayhankuru/gulp-dox.svg?style=flat-square)](https://ci.appveyor.com/project/ayhankuru/gulp-dox) [![Build Status](https://img.shields.io/david/ayhankuru/gulp-dox.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-dox) [![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
+[![Travis Build Status](http://img.shields.io/travis/c0b41/gulp-dox.svg?style=flat-square)](https://travis-ci.org/c0b41/gulp-dox) [![Circle Build Status](https://img.shields.io/circleci/project/c0b41/gulp-dox.svg?style=flat-square)](https://circleci.com/gh/c0b41/gulp-dox) [![Appveyor Build Status](https://img.shields.io/appveyor/ci/c0b41/gulp-dox.svg?style=flat-square)](https://ci.appveyor.com/project/c0b41/gulp-dox) [![Build Status](https://img.shields.io/david/c0b41/gulp-dox.svg?style=flat-square)](https://david-dm.org/c0b41/gulp-dox) 
 
 
 > gulp-dox plugin for [dox](https://github.com/visionmedia/dox)
