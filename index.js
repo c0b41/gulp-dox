@@ -19,7 +19,7 @@ module.exports = function(opt){
 			var parsed = dox.parseComments(file.contents.toString(),opt);
 		    parsed = JSON.stringify(parsed, null, 2);
 
-            file.contents = new Buffer(parsed);
+            file.contents = Buffer.from(parsed);
             file.path = replaceExt(file.path, '.json');
 		} catch (err) {
 			this.emit('error', new PluginError('gulp-dox', err));
