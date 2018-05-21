@@ -1,7 +1,7 @@
 'use strict';
 var expect = require('expect.js');
 var fs = require('fs');
-var gutil = require('gulp-util');
+var Vinyl = require('vinyl');
 var gulpDox = require('../index.js');
 
 it('GulpDox Test', function (cb) {
@@ -14,7 +14,7 @@ it('GulpDox Test', function (cb) {
 
 	stream.on('end', cb);
 
-	stream.write(new gutil.File({
+	stream.write(new Vinyl({
 		cwd: __dirname,
 		base: __dirname + '/fixtures',
 		path: __dirname + '/fixtures/hello.js',
